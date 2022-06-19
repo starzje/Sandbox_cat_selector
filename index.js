@@ -49,7 +49,6 @@ function removeAllClasses() {
   allClasses.forEach((element) => {
     element.classList.remove("active");
   });
-  cardImage.classList.remove("image");
 }
 
 //function that adds content from "cats" object inside HTML
